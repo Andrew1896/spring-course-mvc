@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4adf056d-0815-4938-9441-51d81574b660" name="Changes" comment="Adnotarea @RequestMapping pentru clasa Controller">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/Employee.java" afterDir="false" />
+    <list default="true" id="4adf056d-0815-4938-9441-51d81574b660" name="Changes" comment="Spring MVC forma Input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
     </list>
@@ -152,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704059564991</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spring MVC forma Input">
+      <option name="closed" value="true" />
+      <created>1704138974917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704138974918</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +168,7 @@
     <MESSAGE value="component Model" />
     <MESSAGE value="Adnotarea @RequestParam" />
     <MESSAGE value="Adnotarea @RequestMapping pentru clasa Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adnotarea @RequestMapping pentru clasa Controller" />
+    <MESSAGE value="Spring MVC forma Input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC forma Input" />
   </component>
 </project>
