@@ -13,8 +13,10 @@
 placeholder="Write your name"/>
 <input type="submit"/>
 </form>
+</body>
+</html>
 
-<form:form action="showDeatails" addAttribute="employee">
+<!-- <form:form action="showDeatails" addAttribute="employee">
 
    Name <form:input path="name"/>
    <form:errors path="name"/>
@@ -27,7 +29,6 @@ placeholder="Write your name"/>
    <br><br>
    Department<form:select path:="department"/>
 
-
    <form:option value="Information Technology" label="IT"/>
    <form:option value="Human Resources" label="HR"/>
    <form:option value="Sales" label="Sales"/>
@@ -36,7 +37,6 @@ placeholder="Write your name"/>
    </form:select>
    <br><br>
    Witch car do you want?
-
 
    BMW <form:radiobutton path="carBrand" value="BMW"/>
    Audi <form:radiobutton path="carBrand" value="Audi"/>
@@ -63,4 +63,4 @@ placeholder="Write your name"/>
 
 </body>
 
-</html>
+</html> -->

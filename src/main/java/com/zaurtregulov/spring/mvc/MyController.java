@@ -30,7 +30,7 @@ public class MyController {
         String empName = request.getParameter("employeeName");
         empName = "Mr. " + empName;
         model.addAttribute("nameAttribute", empName);
-        model.addAttribute("description", " - udemy instructor" );
+        model.addAttribute("description", " - udemy student" );
 
         return "show-emp-details-view";
     }
