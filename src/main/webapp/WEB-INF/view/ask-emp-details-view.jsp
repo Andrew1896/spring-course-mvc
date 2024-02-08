@@ -16,7 +16,7 @@ placeholder="Write your name"/>
 </body>
 </html>
 
-<!-- <form:form action="showDeatails" addAttribute="employee">
+ <form:form action="showDeatails" addAttribute="employee">
 
    Name <form:input path="name"/>
    <form:errors path="name"/>
@@ -63,4 +63,4 @@ placeholder="Write your name"/>
 
 </body>
 
-</html> -->
+</html>
