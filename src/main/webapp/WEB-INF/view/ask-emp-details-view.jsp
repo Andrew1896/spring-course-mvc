@@ -4,10 +4,10 @@
 <body>
 
 <h2> Dear Employee, Please enter your details</h2>
+<br><br>
 
-<br>
-<br>
 
+<!-- lectia 58 -->
 <form action="showDetails" method="get">
 <input type="text" name="employeeName"
 placeholder="Write your name"/>
@@ -16,6 +16,7 @@ placeholder="Write your name"/>
 </body>
 </html>
 
+<!--
  <form:form action="showDeatails" addAttribute="employee">
 
    Name <form:input path="name"/>
@@ -27,7 +28,7 @@ placeholder="Write your name"/>
    Salary <form:input path:="salary"/>
    <form:errors path="salary"/>
    <br><br>
-   Department<form:select path:="department"/>
+   <!-- Department<form:select path:="department"/>
 
    <form:option value="Information Technology" label="IT"/>
    <form:option value="Human Resources" label="HR"/>
@@ -58,9 +59,8 @@ placeholder="Write your name"/>
    Email <form:input path="email"/>
    <form:errors path="email"/>
    <br><br>
-
    <input type="submit" value="OK">
 
 </body>
 
-</html>
+</html> -->
