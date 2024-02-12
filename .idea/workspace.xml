@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4adf056d-0815-4938-9441-51d81574b660" name="Changes" comment="Learning Spring MVC">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/faefa.jsp" afterDir="false" />
+    <list default="true" id="4adf056d-0815-4938-9441-51d81574b660" name="Changes" comment="Update MyController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/MyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707683794709</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update MyController">
+      <option name="closed" value="true" />
+      <created>1707688627358</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707688627358</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -277,7 +281,8 @@
     <MESSAGE value="New Changes pom.xml, Spring MVC" />
     <MESSAGE value="Update Spring MVC" />
     <MESSAGE value="Learning Spring MVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learning Spring MVC" />
+    <MESSAGE value="Update MyController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update MyController" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
