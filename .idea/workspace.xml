@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4adf056d-0815-4938-9441-51d81574b660" name="Changes" comment="Update MyController">
+    <list default="true" id="4adf056d-0815-4938-9441-51d81574b660" name="Changes" comment="Forma Select, Radiobutton, Checkbox">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zaurtregulov/spring/mvc/MyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/faefa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/faefa.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +262,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707688627358</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update ask &amp; show Details">
+      <option name="closed" value="true" />
+      <created>1707777944428</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1707777944428</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Forma Select, Radiobutton, Checkbox">
+      <option name="closed" value="true" />
+      <created>1707859801900</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1707859801900</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -282,7 +300,9 @@
     <MESSAGE value="Update Spring MVC" />
     <MESSAGE value="Learning Spring MVC" />
     <MESSAGE value="Update MyController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update MyController" />
+    <MESSAGE value="Update ask &amp; show Details" />
+    <MESSAGE value="Forma Select, Radiobutton, Checkbox" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forma Select, Radiobutton, Checkbox" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
