@@ -17,6 +17,23 @@ Your name: ${employee.name}
 Your surname: ${employee.surname}
 <br>
 Your salary: ${employee.salary}
+<br>
+
+<%--lectia 63 --%>
+Your department: ${employee.department}
+<br>
+
+<%--lectia 64 --%>
+Your car: ${employee.carBrand}
+<br>
+
+<%--lectia 65 --%>
+Language(s)
+<ul>
+<c:forEach var="lang" items="${employee.languages}">
+<li>  ${lang} </li>
+</c:forEach>
+</ul>
 
 </body>
 </html>

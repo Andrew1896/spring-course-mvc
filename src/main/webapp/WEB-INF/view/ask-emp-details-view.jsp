@@ -6,6 +6,7 @@
 <h2> Dear Employee, Please enter your details</h2>
 <br><br>
 
+
 <%-- lectia 58, 59, 60, 61
 <form action="showDetails" method="get">
 <input type="text" name="employeeName"
@@ -15,17 +16,37 @@ placeholder="Write your name"/>
 </body>
 </html> --%>
 
-<%-- lectia 62 --%>
- <form:form action ="showDetails" modelAttribute="employee">
+<%-- lectia 62, 63, 64, 65 --%>
+<form:form action ="showDetails" modelAttribute="employee">
+Name <form:input path="name"/>
+<br><br>
+Surname <form:input path="surname"/>
+<br><br>
+Salary <form:input path="salary"/>
+<br><br>
 
-   Name <form:input path="name"/>
-   <br><br>
-   Surname <form:input path="surname"/>
-   <br><br>
-   Salary <form:input path="salary"/>
-   <br><br>
-   <input type="submit" value="OK">
-   </form:form>
+Department <form:select path="department">
+<%-- <form:option value="Information Technology" label="IT"/>
+<form:option value="Human Resources" label="HR"/>
+<form:option value="Sales" label="Sales"/> --%>
+<form:options items="${employee.departments}"/>
+</form:select>
+<br><br>
 
-   </body>
-   </html>
+Witch car do you want?
+<%-- BMW <form:radiobutton path="carBrand" value="BMW"/>
+Audi <form:radiobutton path="carBrand" value="Audi"/>
+MB <form:radiobutton path="carBrand" value="Mercedes-Benz"/> --%>
+<form:radiobuttons path="carBrand" items="${employee.carBrands}"/>
+<br><br>
+
+Foreign Language (s)
+EN <form:checkbox path="languages" value="English"/>
+DE <form:checkbox path="languages" value="Deutch"/>
+FR <form:checkbox path="languages" value="French"/>
+<%-- <form:checkboxes path="languages" items="${employee.LanguageList}"/> --%>
+<input type="submit" value="OK">
+</form:form>
+
+</body>
+</html>
