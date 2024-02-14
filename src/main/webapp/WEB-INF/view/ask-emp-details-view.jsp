@@ -16,9 +16,10 @@ placeholder="Write your name"/>
 </body>
 </html> --%>
 
-<%-- lectia 62, 63, 64, 65 --%>
+<%-- lectia 62, 63, 64, 65, 66 --%>
 <form:form action ="showDetails" modelAttribute="employee">
 Name <form:input path="name"/>
+<form:errors path="name"/>
 <br><br>
 Surname <form:input path="surname"/>
 <br><br>

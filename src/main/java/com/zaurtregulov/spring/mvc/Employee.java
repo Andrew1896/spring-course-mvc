@@ -1,7 +1,11 @@
 package com.zaurtregulov.spring.mvc;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 import java.util.HashMap;
 import java.util.Map;
+
 //    lectia 62
 //public class Employee {
 //
@@ -57,13 +61,13 @@ import java.util.Map;
 //}
 
 
-//    lectia 63, 64, 65
+//    lectia 63, 64, 65, 66
 public class Employee {
 
-//    @Size(min = 3, message = "name must be min 3 symbols")
+    @Size(min = 2, message = "name must be min 3 symbols")
     private String name;
-//    //    @NotEmpty(message = "surname is required field")
-//    @NotBlank(message = "surname is required field")
+//    @NotEmpty(message = "surname is required field")
+    @NotBlank(message = "surname is required field")
     private String surname;
 //    @Min(value = 500, message = "must be greater than 499")
 //    @Max(value = 1000, message = "must be less than 1001")
