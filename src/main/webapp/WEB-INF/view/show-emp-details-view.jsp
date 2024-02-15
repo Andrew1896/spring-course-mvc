@@ -27,13 +27,17 @@ Your department: ${employee.department}
 Your car: ${employee.carBrand}
 <br>
 
-<%--lectia 65 --%>
+<%--lectia 65, 66 --%>
 Language(s)
 <ul>
 <c:forEach var="lang" items="${employee.languages}">
 <li>  ${lang} </li>
 </c:forEach>
 </ul>
+<br>
+
+<%--lectia 67 --%>
+Phone number: ${employee.phoneNumber}
 
 </body>
 </html>

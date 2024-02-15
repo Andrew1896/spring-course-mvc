@@ -151,7 +151,7 @@ import javax.validation.Valid;
 //}
 
 
-// lectia 66
+// lectia 66, 67
 @Controller
 @RequestMapping("/employee")
 public class MyController {
