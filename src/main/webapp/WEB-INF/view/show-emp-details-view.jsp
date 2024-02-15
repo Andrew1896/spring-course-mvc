@@ -38,6 +38,10 @@ Language(s)
 
 <%--lectia 67 --%>
 Phone number: ${employee.phoneNumber}
+<br>
+
+<%--lectia 68 --%>
+Email: ${employee.email}
 
 </body>
 </html>

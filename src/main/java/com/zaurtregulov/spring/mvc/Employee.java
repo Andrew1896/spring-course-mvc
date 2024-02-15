@@ -1,5 +1,7 @@
 package com.zaurtregulov.spring.mvc;
 
+import com.zaurtregulov.spring.mvc.validation.CheckEmail;
+
 import javax.validation.constraints.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -76,8 +78,8 @@ public class Employee {
     private Map<String, String> carBrands;
     private String[] languages;
     private Map<String, String> languageList;
-//    @CheckEmail //(value = "abc.com", message = "email must ends with abc.com")
-//    private String email;
+    @CheckEmail(value = "gmail.com", message = "email must ends with abc.com")
+    private String email;
     @Pattern(regexp = "\\d{3}-\\d{3}-\\d{3}", message = "please use pattern XXX-XXX-XXX")
     private String phoneNumber;
 
@@ -178,14 +180,14 @@ public class Employee {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-//
-//    public String getEmail() {
-//        return email;
-//    }
-//
-//    public void setEmail(String email) {
-//        this.email = email;
-//    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     @Override
     public String toString() {

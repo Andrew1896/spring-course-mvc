@@ -16,7 +16,7 @@ placeholder="Write your name"/>
 </body>
 </html> --%>
 
-<%-- lectia 62, 63, 64, 65, 66, 67 --%>
+<%-- lectia 62, 63, 64, 65, 66, 67, 68 --%>
 <form:form action ="showDetails" modelAttribute="employee">
 Name <form:input path="name"/>
 <form:errors path="name"/>
@@ -53,6 +53,9 @@ FR <form:checkbox path="languages" value="French"/> --%>
 Phone number <form:input path="phoneNumber"/>
 <form:errors path="phoneNumber"/>
 <br><br>
+
+Email <form:input path="email"/>
+<form:errors path="email"/>
 <input type="submit" value="OK">
 </form:form>
 
