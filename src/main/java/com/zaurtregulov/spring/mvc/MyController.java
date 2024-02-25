@@ -3,7 +3,9 @@ package com.zaurtregulov.spring.mvc;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.validation.Valid;
@@ -174,7 +176,9 @@ public class MyController {
         return "ask-emp-details-view";
     }
 
-    @RequestMapping("/showDetails")
+//    @RequestMapping("/showDetails")
+//    @GetMapping("/showDetails")
+    @PostMapping("/showDetails")
     public String showEmpDetails(@Valid @ModelAttribute("employee") Employee emp
             , BindingResult bindingResult) {
 

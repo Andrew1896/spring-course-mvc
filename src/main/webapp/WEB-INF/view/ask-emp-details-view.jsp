@@ -17,7 +17,7 @@ placeholder="Write your name"/>
 </html> --%>
 
 <%-- lectia 62, 63, 64, 65, 66, 67, 68 --%>
-<form:form action ="showDetails" modelAttribute="employee">
+<form:form action ="showDetails" modelAttribute="employee" method="get">
 Name <form:input path="name"/>
 <form:errors path="name"/>
 <br><br>
